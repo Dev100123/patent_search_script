@@ -14,6 +14,8 @@ This is a simple and interactive Patent Search Web Application built using Strea
 - 📥 Download results as a formatted `.docx` report
 - ⚡ Fast and user-friendly UI
 
+  LINK TO THE APP: [CLICK HERE](https://patentsearchscript-n4ug3pqdwzas6sqzrme7mp.streamlit.app/)
+
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the Repository
