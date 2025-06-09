@@ -163,9 +163,6 @@ def main():
         # Show success message
         st.success(f"✅ Found {result['summary']['total']} patents for your query!")
 
-        # (The rest of your display code goes here, e.g. showing summary, details, download button)
-
-
         # Display summary
         summary = result["summary"]
         st.subheader("Summary")
