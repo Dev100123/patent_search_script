@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from docx import Document
 from collections import Counter
 import streamlit as st
+from io import BytesIO
 
 # Load .env file
 load_dotenv()
@@ -194,7 +195,6 @@ def main():
 
         # Create docx and provide download button
         doc = create_word_doc(result)
-        from io import BytesIO
         buffer = BytesIO()
         doc.save(buffer)
         buffer.seek(0)
